@@ -15,9 +15,12 @@
     "eslint-config-htmlacademy": "0.5.2"
   },
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "node.js": "0.0.0"
+  },
   "scripts": {
-    "test": "eslint js/"
+    "test": "eslint js/",
+    "fix": "eslint js/ --fix"
   },
   "engines": {
     "node": "8.11"
